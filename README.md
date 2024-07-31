@@ -1,5 +1,3 @@
-<img width="856" alt="スクリーンショット 2024-07-31 22 31 18" src="https://github.com/user-attachments/assets/e7080a8b-c4f3-4506-b46b-c0ff09146036">エンドポイント
-
 - API実装
     - ユーザー
         - 作成
