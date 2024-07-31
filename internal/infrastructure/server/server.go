@@ -31,7 +31,7 @@ func (s *Server) setupRoutes(userHandler *handlers.UserHandler, reportHandler *h
 	s.router.HandleFunc("/reports/{id}", reportHandler.UpdateReport).Methods("PUT")
 	s.router.HandleFunc("/reports/{id}", reportHandler.DeleteReport).Methods("DELETE")
 
-	// ミドルウェアの追加
+	// ミドルウェア
 	s.router.Use(loggingMiddleware)
 }
 

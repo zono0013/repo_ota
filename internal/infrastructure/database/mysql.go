@@ -15,7 +15,7 @@ func NewMySQLConnection() (*sql.DB, error) {
 	dbPort := os.Getenv("DB_PORT")
 	dbName := os.Getenv("DB_NAME")
 
-	// 接続文字列を作成（データベース名なし）
+	// 接続パス作成
 	dsn := fmt.Sprintf("%s:%s@tcp(%s:%s)/", dbUser, dbPassword, dbHost, dbPort)
 
 	// データベース接続を確立
